@@ -1,0 +1,151 @@
+\begin{thebibliography}{}
+
+\bibitem[Barto et~al., 1995]{barto1995learning}
+Barto, A.~G., Bradtke, S.~J., and Singh, S.~P. (1995).
+\newblock Learning to act using real-time dynamic programming.
+\newblock {\em Artificial Intelligence}, 72(1):81--138.
+
+\bibitem[Crockett, 2013]{crockett2013models}
+Crockett, M.~J. (2013).
+\newblock Models of morality.
+\newblock {\em Trends in cognitive sciences}, 17(8):363--366.
+
+\bibitem[Cushman, 2013]{cushman2013action}
+Cushman, F. (2013).
+\newblock Action, outcome, and value a dual-system framework for morality.
+\newblock {\em Personality and social psychology review}, 17(3):273--292.
+
+\bibitem[Daw and Dayan, 2014]{daw2014algorithmic}
+Daw, N.~D. and Dayan, P. (2014).
+\newblock The algorithmic anatomy of model-based evaluation.
+\newblock {\em Phil. Trans. R. Soc. B}, 369(1655):20130478.
+
+\bibitem[Daw et~al., 2005]{daw2005uncertainty}
+Daw, N.~D., Niv, Y., and Dayan, P. (2005).
+\newblock Uncertainty-based competition between prefrontal and dorsolateral
+  striatal systems for behavioral control.
+\newblock {\em Nature neuroscience}, 8(12):1704--1711.
+
+\bibitem[Dayan and Berridge, 2014]{dayan2014model}
+Dayan, P. and Berridge, K.~C. (2014).
+\newblock Model-based and model-free pavlovian reward learning: revaluation,
+  revision, and revelation.
+\newblock {\em Cognitive, Affective, \& Behavioral Neuroscience},
+  14(2):473--492.
+
+\bibitem[Gershman et~al., 2014]{gershman2014retrospective}
+Gershman, S.~J., Markman, A.~B., and Otto, A.~R. (2014).
+\newblock Retrospective revaluation in sequential decision making: A tale of
+  two systems.
+\newblock {\em Journal of Experimental Psychology: General}, 143(1):182.
+
+\bibitem[Gl{\"a}scher et~al., 2010]{glascher2010states}
+Gl{\"a}scher, J., Daw, N., Dayan, P., and O'Doherty, J.~P. (2010).
+\newblock States versus rewards: dissociable neural prediction error signals
+  underlying model-based and model-free reinforcement learning.
+\newblock {\em Neuron}, 66(4):585--595.
+
+\bibitem[Heidrich-Meisner and Igel, 2008]{heidrich2008variable}
+Heidrich-Meisner, V. and Igel, C. (2008).
+\newblock Variable metric reinforcement learning methods applied to the noisy
+  mountain car problem.
+\newblock In {\em European Workshop on Reinforcement Learning}, pages 136--150.
+  Springer.
+
+\bibitem[Lansink et~al., 2009]{lansink2009hippocampus}
+Lansink, C.~S., Goltstein, P.~M., Lankelma, J.~V., McNaughton, B.~L., and
+  Pennartz, C.~M. (2009).
+\newblock Hippocampus leads ventral striatum in replay of place-reward
+  information.
+\newblock {\em PLoS Biol}, 7(8):e1000173.
+
+\bibitem[McMahan et~al., 2005]{mcmahan2005bounded}
+McMahan, H.~B., Likhachev, M., and Gordon, G.~J. (2005).
+\newblock Bounded real-time dynamic programming: Rtdp with monotone upper
+  bounds and performance guarantees.
+\newblock In {\em Proceedings of the 22nd international conference on Machine
+  learning}, pages 569--576. ACM.
+
+\bibitem[Moore, 1990]{moore1990efficient}
+Moore, A.~W. (1990).
+\newblock {\em Efficient memory-based learning for robot control}.
+\newblock PhD thesis, University of Cambridge, Cambridge, UK.
+
+\bibitem[Moore and Atkeson, 1993]{moore1993prioritized}
+Moore, A.~W. and Atkeson, C.~G. (1993).
+\newblock Prioritized sweeping: Reinforcement learning with less data and less
+  time.
+\newblock {\em Machine Learning}, 13(1):103--130.
+
+\bibitem[Ng et~al., 1999]{ng1999policy}
+Ng, A.~Y., Harada, D., and Russell, S. (1999).
+\newblock Policy invariance under reward transformations: Theory and
+  application to reward shaping.
+\newblock In {\em ICML}, volume~99, pages 278--287.
+
+\bibitem[Peng and Williams, 1993]{peng1993efficient}
+Peng, J. and Williams, R.~J. (1993).
+\newblock Efficient learning and planning within the dyna framework.
+\newblock {\em Adaptive Behavior}, 1(4):437--454.
+
+\bibitem[Rasmussen et~al., 2003]{rasmussen2003gaussian}
+Rasmussen, C.~E., Kuss, M., et~al. (2003).
+\newblock Gaussian processes in reinforcement learning.
+\newblock In {\em NIPS}, volume~4, page~1.
+
+\bibitem[Smart and Kaelbling, 2000]{smart2000practical}
+Smart, W.~D. and Kaelbling, L.~P. (2000).
+\newblock Practical reinforcement learning in continuous spaces.
+\newblock In {\em ICML}, pages 903--910.
+
+\bibitem[Sutton, 1991a]{sutton1991dyna}
+Sutton, R.~S. (1991a).
+\newblock Dyna, an integrated architecture for learning, planning, and
+  reacting.
+\newblock {\em ACM SIGART Bulletin}, 2(4):160--163.
+
+\bibitem[Sutton, 1991b]{sutton1991planning}
+Sutton, R.~S. (1991b).
+\newblock Planning by incremental dynamic programming.
+\newblock In {\em Proceedings of the Eighth International Workshop on Machine
+  Learning}, pages 353--357.
+
+\bibitem[Sutton, 1996]{sutton1996generalization}
+Sutton, R.~S. (1996).
+\newblock Generalization in reinforcement learning: Successful examples using
+  sparse coarse coding.
+\newblock {\em Advances in neural information processing systems}, pages
+  1038--1044.
+
+\bibitem[Sutton and Barto, 1998]{sutton1998reinforcement}
+Sutton, R.~S. and Barto, A.~G. (1998).
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press.
+
+\bibitem[Sutton et~al., 2012]{sutton2012dyna}
+Sutton, R.~S., Szepesv{\'a}ri, C., Geramifard, A., and Bowling, M.~P. (2012).
+\newblock Dyna-style planning with linear function approximation and
+  prioritized sweeping.
+\newblock {\em arXiv preprint arXiv:1206.3285}.
+
+\bibitem[Thorndike, 1933]{thorndike1933proof}
+Thorndike, E.~L. (1933).
+\newblock A proof of the law of effect.
+\newblock {\em Science}.
+
+\bibitem[Tolman, 1948]{tolman1948cognitive}
+Tolman, E.~C. (1948).
+\newblock Cognitive maps in rats and men.
+\newblock {\em Psychological review}, 55(4):189.
+
+\bibitem[Whiteson and Stone, 2006]{whiteson2006evolutionary}
+Whiteson, S. and Stone, P. (2006).
+\newblock Evolutionary function approximation for reinforcement learning.
+\newblock {\em Journal of Machine Learning Research}, 7(May):877--917.
+
+\bibitem[Wiering and Van~Otterlo, 2012]{wiering2012reinforcement}
+Wiering, M. and Van~Otterlo, M. (2012).
+\newblock Reinforcement learning.
+\newblock {\em Adaptation, Learning, and Optimization}, 12.
+
+\end{thebibliography}
