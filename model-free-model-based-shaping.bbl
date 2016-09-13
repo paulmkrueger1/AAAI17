@@ -61,7 +61,7 @@ Lansink, C.~S., Goltstein, P.~M., Lankelma, J.~V., McNaughton, B.~L., and
 
 \bibitem[McMahan et~al., 2005]{mcmahan2005bounded}
 McMahan, H.~B., Likhachev, M., and Gordon, G.~J. (2005).
-\newblock Bounded real-time dynamic programming: Rtdp with monotone upper
+\newblock Bounded real-time dynamic programming: RTDP with monotone upper
   bounds and performance guarantees.
 \newblock In {\em Proceedings of the 22nd international conference on Machine
   learning}, pages 569--576. ACM.

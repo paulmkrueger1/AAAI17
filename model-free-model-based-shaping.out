@@ -5,17 +5,17 @@
 \BOOKMARK [2][-]{section*.5}{Model-based Reinforcement Learning}{section*.2}% 5
 \BOOKMARK [2][-]{section*.6}{Dyna}{section*.2}% 6
 \BOOKMARK [1][-]{section*.8}{Model-based pseudoreward approximation}{}% 7
-\BOOKMARK [2][-]{section*.9}{Pseudorewards}{section*.8}% 8
-\BOOKMARK [2][-]{section*.10}{Shaping theorem}{section*.8}% 9
-\BOOKMARK [2][-]{section*.11}{Approximating the value function with Bounded RTDP}{section*.8}% 10
+\BOOKMARK [2][-]{section*.9}{Pseudorewards and the shaping theorem}{section*.8}% 8
+\BOOKMARK [2][-]{section*.10}{Approximating the value function}{section*.8}% 9
+\BOOKMARK [2][-]{section*.11}{Linking model-free and model-based RL with the reward function}{section*.8}% 10
 \BOOKMARK [1][-]{section*.13}{Experiment 1: Maze learning}{}% 11
 \BOOKMARK [2][-]{section*.14}{Methods}{section*.13}% 12
 \BOOKMARK [2][-]{section*.17}{Results}{section*.13}% 13
 \BOOKMARK [1][-]{section*.20}{Experiment 2: Mountain car problem}{}% 14
 \BOOKMARK [2][-]{section*.21}{Methods}{section*.20}% 15
-\BOOKMARK [2][-]{section*.23}{Results}{section*.20}% 16
-\BOOKMARK [1][-]{section*.26}{Discussion}{}% 17
-\BOOKMARK [2][-]{section*.27}{Equalizing knowledge}{section*.26}% 18
-\BOOKMARK [2][-]{section*.28}{Learning the model}{section*.26}% 19
-\BOOKMARK [2][-]{section*.29}{Prioritized sweeping}{section*.26}% 20
-\BOOKMARK [2][-]{section*.30}{Pseudorewards and emotion}{section*.26}% 21
+\BOOKMARK [2][-]{section*.22}{Results}{section*.20}% 16
+\BOOKMARK [1][-]{section*.25}{Discussion}{}% 17
+\BOOKMARK [2][-]{section*.26}{Equalizing knowledge}{section*.25}% 18
+\BOOKMARK [2][-]{section*.27}{Learning the model}{section*.25}% 19
+\BOOKMARK [2][-]{section*.28}{Prioritized sweeping}{section*.25}% 20
+\BOOKMARK [2][-]{section*.29}{Pseudorewards and emotion}{section*.25}% 21
