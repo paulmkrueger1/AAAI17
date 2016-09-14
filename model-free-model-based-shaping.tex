@@ -63,11 +63,13 @@ An \textit{optimal policy}, $\pi^{*}$, is a policy that maximizes the value func
 
 \subsection{Model-free Reinforcement Learning}
 
-RL is concerned with finding a policy that maximizes expected reward. Model-free methods require no knowledge about the environment, and the agent learns which state-action pairs lead to reward through trial-and-error. One of the most common model-free methods, which is employed throughout the experiments in this paper, is Q-learning~\cite{sutton1998reinforcement}. When the agent takes action $a$ from state $s$, leading to state $s'$ and reward $R(s,s')$, a value $Q(s,a)$ is learned via the following algorithm:
+Reinforcement learning (RL) is concerned with learning an effective policy from rewards alone. Model-free methods require no knowledge about the environment, and the agent learns which state-action pairs lead to reward through trial-and-error. One of the most common model-free methods, which is employed throughout the experiments in this paper, is Q-learning~\cite{sutton1998reinforcement}. When the agent takes action $a$ from state $s$, leading to state $s'$ and reward $R(s,s')$, a value $Q(s,a)$ is learned via the update
 
+\begin{small}
 \begin{equation}
-Q(s,a) \leftarrow Q(s,a) + \alpha (R(s, s') + \gamma \max_{a'} Q(s', a') - Q(s,a))
+Q(s,a) \leftarrow Q(s,a) + \alpha (R(s, s') + \gamma \max_{a'} Q(s', a') - Q(s,a)),
 \end{equation}
+\end{small}
 
 \noindent
 where $\alpha$ is the \textit{learning rate} that determines how quickly the agent learns from new experience. The terms, $R(s, s') + \gamma \max_{a'} Q(s', a') - Q(s,a)$, are called the \textit{temporal difference error}. Q-learning can eventually learn an optimal policy $\pi^*$ over time. Initially all $Q(s,a)$ are zero. The agent uses a \textit{decision policy}, such as the $\epsilon$-greedy policy which is used in our experiments. At each state $s$, with probability $1 - \epsilon$, the agent chooses the action $a \in \mathcal{A}$ with the highest value $Q(s,a)$. With probability $\epsilon$ it chooses an action uniformly at random ($\epsilon$ is a hyperparameter that calibrates the explore-exploit tradeoff).
@@ -77,14 +79,14 @@ where $\alpha$ is the \textit{learning rate} that determines how quickly the age
 Unlike model-free RL, model-based RL has (at least some) knowledge of the environment in terms of the transition probabilities between states, $\mathcal{P}$, and the reward contingencies for state-action pairs, $\mathcal{R}$. One of the most common model-based methods for finding an optimal policy $\pi^*$ is \textit{dynamic programming} which calculates the value of state $s$ under policy $\pi$ according to the \textit{Bellman equation}:
 
 \begin{equation}
-V^{\pi}(s) = R_{\pi(s)}(s,\pi(s)) + \gamma \sum\limits_{s'} P_{\pi(s)}(s,s')V^{\pi}(s'))
+V^{\pi}(s) = R_{\pi(s)}(s,\pi(s)) + \gamma \sum\limits_{s'} P_{\pi(s)}(s,s')V^{\pi}(s')),
 \end{equation}
 
 \noindent
 and finds the value of each state $V^{*}(s)$ under the optimal policy $\pi^*$ by recursively updating these values using the \textit{Bellman optimality equation}:
 
 \begin{equation}
-V^{*}(s) = \max_a R_{\pi(s)}(s,a) + \gamma \sum\limits_{s'} P_{\pi(s)}(s,s')V^{*}(s'))
+V^{*}(s) = \max_a R_{\pi(s)}(s,a) + \gamma \sum\limits_{s'} P_{\pi(s)}(s,s')V^{*}(s')).
 \end{equation}
 
 \subsection{Dyna}
@@ -94,11 +96,11 @@ Dyna uses model-free learning combined with a model-based system that replays pa
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.4\textwidth]{dyna_schematic}
-\caption{Schematic of the Dyna archetecture}
+\caption{Schematic of the Dyna archetecture.}
 \label{fig:dyna_schematic}
 \end{figure}
 
-In addition to being a useful artificial intelligence agent for integrating direct learning with indirect replay, Dyna has begun to provide a useful model of human cognition. ~\cite{gershman2014retrospective} found behavioral evidence in humans cositent with a Dyna architecture.  Participants performed a sequential decision task with separate phases that tested behavioral revaluatation. When given either more time between phases of learning or a smaller cognitive load, the magnitude of revaluation was larger, consistent with model-based replay of past experience. There are also neurophysiological data that suggest Dyna-like cooperation between the two systems. ~\cite{lansink2009hippocampus} identified neurons in the hippocampus of rats encoding spatial location and neurons in the striatum of the same rats that encoded reward. During sleep, the activation of those hippocampal cells correlated with and proceeded activation of the same striatal cells that encoded the value of those locations.
+In addition to being a useful algorithm for integrating direct learning with indirect replay, Dyna has been proposed as a model of human cognition. ~\cite{gershman2014retrospective} found behavioral evidence in humans cositent with a Dyna architecture.  Participants performed a sequential decision task with separate phases that tested behavioral revaluatation. When given either more time between phases of learning or a smaller cognitive load, the magnitude of revaluation was larger, consistent with model-based replay of past experience. There are also neurophysiological data that suggest Dyna-like cooperation between the two systems. ~\cite{lansink2009hippocampus} identified neurons in the hippocampus of rats encoding spatial location and neurons in the striatum of the same rats that encoded reward. During sleep, the activation of those hippocampal cells correlated with and proceeded activation of the same striatal cells that encoded the value of those locations.
 
 \section{Model-based pseudoreward approximation}
 
@@ -111,17 +113,17 @@ Pseudorewards offer a way of conferring extra information to an agent about the 
 R'(s, s') = R(s, s') + F(s, s').
 \end{equation} 
 
-Pseudorewards are defined using \textit{shaping functions}, $F$.  In~\cite{ng1999policy}, conditions for which the optimal policy $\pi^*$ remains invariant under a \textit{shaping function} are developed. In particular, $F$ must be a potential-based shaping function to possess this invariance property:
+Pseudorewards are defined using \textit{shaping functions}, $F$.  In~\cite{ng1999policy}, conditions for which the optimal policy $\pi^*$ remains invariant under a shaping function are developed. In particular, $F$ must be a potential-based shaping function to possess this invariance property:
 
 \begin{equation}
-F(s, a,s') = \gamma \Phi(s') - \Phi(s) 
+F(s, a,s') = \gamma \Phi(s') - \Phi(s) ,
 \end{equation}
 
 \noindent
 where $\Phi$ is a real-valued function, $\Phi : \mathcal{S} \rightarrow \mathbb{R}$. If the shaping function is not potential-based, it is possible that Q-learning will converge to a suboptimal solution. The simplest example of invariant pseudorewards uses the difference in optimal values between the agent's current state and next state:
 
 \begin{equation}
-F(s, s') = \gamma V_{\pi^*}(s') - V_{\pi^*}(s) 
+F(s, s') = \gamma V_{\pi^*}(s') - V_{\pi^*}(s) .
 \end{equation}
 
 This method is called the \textit{optimal policy pseudoreward}--it encourages the agent to always move down the optimal path from its current state. With an $\epsilon$-greedy decision policy, if $\epsilon = 0$, the agent would move directly to the goal along the shortest path.
@@ -139,7 +141,7 @@ Figure~\ref{fig:approxPR_schematic} provides a schematic illustration of how dyn
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.4\textwidth]{approxPR_schematic}
-\caption{Schematic of the approximate pseudoreward shaping method}
+\caption{Schematic of the approximate pseudoreward shaping method.}
 \label{fig:approxPR_schematic}
 \end{figure}
 
@@ -147,29 +149,30 @@ Figure~\ref{fig:approxPR_schematic} provides a schematic illustration of how dyn
 
 \subsection{Methods}
 
-Our first experiment entailed an agent learning in a maze environment~\cite{sutton1991dyna, sutton1991planning, peng1993efficient, sutton1998reinforcement, wiering2012reinforcement}. The agent (a simple Q-learner), began each episode in the upper-left corner of a maze, and was rewarded one point for reaching the lower-right corner (Figure~\ref{fig:maze_values}). The state space consisted of 121 locations in the grid shown in Figure~\ref{fig:maze_values}, and actions consisted of each of the four cardinal directions. The agent was trained for fifty episodes, with each episode ending when the goal was reached, or 2,000 steps were taken (whichever came first). An $\epsilon$-greedy decision policy was used with $\epsilon = 0.25$. The colors in Figure~\ref{fig:maze_values} correspond to state values under the optimal policy. Since rewards were discounted with $\gamma = 0.95$, the value of each state is $0.95^{\min{d}}$, where $d$ is the number of steps to the goal. All simulations were run one-hundred times and averaged to produce plots.
+Our first experiment involved an agent learning in a maze environment~\cite{sutton1991dyna, sutton1991planning, peng1993efficient, sutton1998reinforcement, wiering2012reinforcement}. The agent (a simple Q-learner), began each episode in the upper-left corner of a maze, and was rewarded one point for reaching the lower-right corner (Figure~\ref{fig:maze_values}). The state space consisted of 121 locations in the grid shown in Figure~\ref{fig:maze_values}, and actions consisted of each of the four cardinal directions. The agent was trained for fifty episodes, with each episode ending when the goal was reached, or 2,000 steps were taken (whichever came first). An $\epsilon$-greedy decision policy was used with $\epsilon = 0.25$. The colors in Figure~\ref{fig:maze_values} correspond to state values under the optimal policy. Since rewards were discounted with $\gamma = 0.95$, the value of each state is $0.95^{\min{d}}$, where $d$ is the number of steps to the goal. All simulations were run one-hundred times and averaged.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.5\textwidth]{maze_values}
-\caption{Maze environment. Colors correspond to state values under the optimal policy. (S=start state, G=goal state)}
+\caption{Maze environment. Colors correspond to state values under the optimal policy, S is start state, and G is goal state.}
 \label{fig:maze_values}
 \end{figure}
 
 \noindent
-\textbf{Approximate pseudorewards} Dynamic programing was used to approximate state values by iterating over the Bellman equation. In~\cite{mcmahan2005bounded} conditions are defined under which initial state values will provably converge monotonically toward optimal values, but they note that in practice most reasonable initial values will achieve this monotonic convergence. Here, all states were initialized with a lower bound of zero and an upper bound of one, which, in our simple environment, is known to bound state values. Figure~\ref{fig:value_bounds} shows that the approximate state values for each state do indeed converge monotonically. The point at which each state reaches its optimal value is exactly equal to the minimum number of steps that state is from the goal.
+\textbf{Approximate pseudorewards} Dynamic programing was used to approximate state values by iterating over the Bellman equation. In~\cite{mcmahan2005bounded} conditions are defined under which initial state values will provably converge monotonically toward optimal values, but they note that in practice most reasonable initial values will achieve this monotonic convergence. Here, all states were initialized with a lower bound of zero and an upper bound of one, which, in our simple environment, is known to bound state values. Figure~\ref{fig:value_bounds} shows that the approximate state values for each state do indeed converge monotonically. The point at which each state reaches its optimal value is exactly equal to the minimum number of steps that state is from the goal. At each state, the pseudoreward for each action was calculated according to the shaping theorem as the difference between the value of the current state and the value of the of the next state given that action (which was deterministic in this environment). 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.45\textwidth]{value_bounds_labeled}
-\caption{Monotonic convergence of estimated state values. Each subplot corresponds to a state in the maze. (Red lines=upper bound estimate, blue lines=lower bound estimate, dashed lines=optimal state values)}
+\caption{Monotonic convergence of estimated state values. Each subplot corresponds to a state in the maze. Red lines are upper bound estimate, blue lines lower bound estimate, and dashed lines optimal state values.}
 \label{fig:value_bounds}
 \end{figure}
 
-At each state, the pseudoreward for each action was calculated according to the shaping theorem as the difference between the value of the current state and the value of the of the next state given that action (which was deterministic in this environment). Pseudorewards are added onto actual rewards to shape the reward function, thereby guiding the Q-learning algorithm.
+
 
 \noindent
-\textbf{Trading off model-free and model-based computation} The closer pseudorewards are to their optimal values, the easier the learning for the model-free agent (at least to some precision). However, whereas Q-learning is simple and quick, the model-based method of approximating state values is relatively slow and computationally costly. Therefore, we sought to understand the most efficient tradeoff between model-based pseudoreward approximation and model-free learning. This was done by computing the amount of CPU time (in seconds) required for each algorithm (while CPU time is a variable factor, the relative time across algorithms is generally invariant).
+\textbf{Trading off model-free and model-based computation} The closer pseudorewards are to their optimal values, the easier the learning for the model-free agent (at least to some precision). However, whereas Q-learning is simple and quick, the model-based method of approximating state values is relatively slow and computationally costly. Therefore, we sought to understand the most efficient tradeoff between model-based pseudoreward approximation and model-free learning. This was done by computing the amount of CPU time (in seconds) required for each algorithm
+%(while CPU time is a variable factor, the relative time across algorithms is generally invariant).
 
 \subsection{Results}
 
