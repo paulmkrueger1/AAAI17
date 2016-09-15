@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: model-free-model-based-shaping.aux
 The style file: apalike.bst
 Database file #1: model-free-model-based-shaping.bib
-You've used 27 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            642 strings with 8238 characters,
-and the built_in function-call counts, 11142 in all, are:
-= -- 1128
-> -- 373
+            635 strings with 7989 characters,
+and the built_in function-call counts, 10655 in all, are:
+= -- 1084
+> -- 345
 < -- 26
-+ -- 125
-- -- 120
-* -- 915
-:= -- 1865
-add.period$ -- 83
-call.type$ -- 27
-change.case$ -- 192
-chr.to.int$ -- 26
-cite$ -- 27
-duplicate$ -- 456
-empty$ -- 823
-format.name$ -- 165
-if$ -- 2242
++ -- 115
+- -- 110
+* -- 866
+:= -- 1779
+add.period$ -- 80
+call.type$ -- 26
+change.case$ -- 182
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 442
+empty$ -- 792
+format.name$ -- 154
+if$ -- 2150
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 138
-num.names$ -- 81
-pop$ -- 167
+missing$ -- 26
+newline$ -- 133
+num.names$ -- 78
+pop$ -- 159
 preamble$ -- 1
-purify$ -- 194
+purify$ -- 184
 quote$ -- 0
-skip$ -- 360
+skip$ -- 350
 stack$ -- 0
-substring$ -- 868
-swap$ -- 88
+substring$ -- 832
+swap$ -- 87
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
+type$ -- 154
 warning$ -- 0
-while$ -- 99
+while$ -- 96
 width$ -- 0
-write$ -- 355
+write$ -- 342

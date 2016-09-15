@@ -52,13 +52,6 @@ Heidrich-Meisner, V. and Igel, C. (2008).
 \newblock In {\em European Workshop on Reinforcement Learning}, pages 136--150.
   Springer.
 
-\bibitem[Lansink et~al., 2009]{lansink2009hippocampus}
-Lansink, C.~S., Goltstein, P.~M., Lankelma, J.~V., McNaughton, B.~L., and
-  Pennartz, C.~M. (2009).
-\newblock Hippocampus leads ventral striatum in replay of place-reward
-  information.
-\newblock {\em PLoS Biol}, 7(8):e1000173.
-
 \bibitem[McMahan et~al., 2005]{mcmahan2005bounded}
 McMahan, H.~B., Likhachev, M., and Gordon, G.~J. (2005).
 \newblock Bounded real-time dynamic programming: RTDP with monotone upper

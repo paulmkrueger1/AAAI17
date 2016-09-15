@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 SEP 2016 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 SEP 2016 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -318,21 +318,21 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 (./model-free-model-based-shaping.aux)
 \openout1 = `model-free-model-based-shaping.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -342,7 +342,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -352,9 +352,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./model-free-model-based-shaping.out) (./model-free-model-based-shaping.out)
 \@outlinefile=\write3
@@ -389,26 +389,23 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: No \author given.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+ [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -417,98 +414,95 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 File: figures/final/dyna_schematic.png Graphic file (type png)
 
 <use figures/final/dyna_schematic.png>
-Package pdftex.def Info: figures/final/dyna_schematic.png used on input line 99
-.
+Package pdftex.def Info: figures/final/dyna_schematic.png used on input line 10
+7.
 (pdftex.def)             Requested size: 202.3529pt x 82.34708pt.
  [2 <./figures/final/dyna_schematic.png>] <figures/final/approxPR_schematic.png
-, id=154, 722.7pt x 401.5pt>
+, id=150, 722.7pt x 401.5pt>
 File: figures/final/approxPR_schematic.png Graphic file (type png)
 
 <use figures/final/approxPR_schematic.png>
 Package pdftex.def Info: figures/final/approxPR_schematic.png used on input lin
-e 144.
+e 152.
 (pdftex.def)             Requested size: 202.3529pt x 112.41922pt.
 
-Underfull \hbox (badness 2096) in paragraph at lines 153--154
+Underfull \hbox (badness 2096) in paragraph at lines 161--162
 \OT1/ptm/m/n/10 Our first ex-per-i-ment in-volved an agent learn-ing in a
  []
 
-<figures/final/maze_values.png, id=163, 578.16pt x 433.62pt>
+<figures/final/maze_values.png, id=159, 578.16pt x 433.62pt>
 File: figures/final/maze_values.png Graphic file (type png)
 
 <use figures/final/maze_values.png>
-Package pdftex.def Info: figures/final/maze_values.png used on input line 157.
+Package pdftex.def Info: figures/final/maze_values.png used on input line 165.
 (pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
 
-Overfull \hbox (13.55061pt too wide) in paragraph at lines 157--158
+Overfull \hbox (13.55061pt too wide) in paragraph at lines 165--166
  [][] 
  []
 
 [3 <./figures/final/approxPR_schematic.png>]
-<figures/final/value_bounds_labeled.png, id=184, 722.7pt x 553.06625pt>
+<figures/final/value_bounds_labeled.png, id=182, 722.7pt x 553.06625pt>
 File: figures/final/value_bounds_labeled.png Graphic file (type png)
 
 <use figures/final/value_bounds_labeled.png>
 Package pdftex.def Info: figures/final/value_bounds_labeled.png used on input l
-ine 167.
+ine 175.
 (pdftex.def)             Requested size: 227.64894pt x 174.21678pt.
 
-<figures/final/learning_vs_PRiterations_DYNA_mean.png, id=186, 578.16pt x 433.6
+<figures/final/learning_vs_PRiterations_DYNA_mean.png, id=184, 578.16pt x 433.6
 2pt>
 File: figures/final/learning_vs_PRiterations_DYNA_mean.png Graphic file (type p
 ng)
  <use figures/final/learning_vs_PRiterations_DYNA_mean.png>
 Package pdftex.def Info: figures/final/learning_vs_PRiterations_DYNA_mean.png u
-sed on input line 193.
+sed on input line 201.
 (pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
 
-Overfull \hbox (13.55061pt too wide) in paragraph at lines 193--194
+Overfull \hbox (13.55061pt too wide) in paragraph at lines 201--202
  [][] 
  []
 
 
-<figures/final/cpus_vs_PRiterations_DYNA_toGoal.png, id=188, 578.16pt x 433.62p
+<figures/final/cpus_vs_PRiterations_DYNA_toGoal.png, id=186, 578.16pt x 433.62p
 t>
 File: figures/final/cpus_vs_PRiterations_DYNA_toGoal.png Graphic file (type png
 )
  <use figures/final/cpus_vs_PRiterations_DYNA_toGoal.png>
 Package pdftex.def Info: figures/final/cpus_vs_PRiterations_DYNA_toGoal.png use
-d on input line 202.
+d on input line 210.
 (pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
 
-Overfull \hbox (13.55061pt too wide) in paragraph at lines 202--203
+Overfull \hbox (13.55061pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
 [4 <./figures/final/maze_values.png (PNG copy)> <./figures/final/value_bounds_l
 abeled.png>]
-<figures/final/MC_learning_vs_PRiterations_DYNA_mean.png, id=213, 578.16pt x 43
+<figures/final/MC_learning_vs_PRiterations_DYNA_mean.png, id=211, 578.16pt x 43
 3.62pt>
 File: figures/final/MC_learning_vs_PRiterations_DYNA_mean.png Graphic file (typ
 e png)
  <use figures/final/MC_learning_vs_PRiterations_DYNA_mean.png>
 Package pdftex.def Info: figures/final/MC_learning_vs_PRiterations_DYNA_mean.pn
-g used on input line 218.
+g used on input line 226.
 (pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
 
-Overfull \hbox (13.55061pt too wide) in paragraph at lines 218--219
+Overfull \hbox (13.55061pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<figures/final/MC_cpus_vs_PRiterations_DYNA_toGoal.png, id=216, 578.16pt x 433.
+<figures/final/MC_cpus_vs_PRiterations_DYNA_toGoal.png, id=214, 578.16pt x 433.
 62pt>
 File: figures/final/MC_cpus_vs_PRiterations_DYNA_toGoal.png Graphic file (type 
 png)
  <use figures/final/MC_cpus_vs_PRiterations_DYNA_toGoal.png>
 Package pdftex.def Info: figures/final/MC_cpus_vs_PRiterations_DYNA_toGoal.png 
-used on input line 234.
+used on input line 242.
 (pdftex.def)             Requested size: 252.94499pt x 189.70828pt.
 
-Overfull \hbox (13.55061pt too wide) in paragraph at lines 234--235
+Overfull \hbox (13.55061pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
@@ -516,87 +510,83 @@ Overfull \hbox (13.55061pt too wide) in paragraph at lines 234--235
 es/final/MC_learning_vs_PRiterations_DYNA_mean.png (PNG copy)> <./figures/final
 /cpus_vs_PRiterations_DYNA_toGoal.png (PNG copy)> <./figures/final/MC_cpus_vs_P
 Riterations_DYNA_toGoal.png (PNG copy)>]
-Underfull \hbox (badness 1052) in paragraph at lines 253--254
+Underfull \hbox (badness 1052) in paragraph at lines 261--262
 \OT1/ptm/m/n/10 Another im-prove-ment to Dyna is known as pri-or-i-tized
  []
 
 (./model-free-model-based-shaping.bbl [6]
-Underfull \hbox (badness 4467) in paragraph at lines 56--61
-[]\OT1/ptm/m/n/10 Lansink, C. S., Golt-stein, P. M.,
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 75--79
+Underfull \hbox (badness 2846) in paragraph at lines 68--72
 []\OT1/ptm/m/n/10 Moore, A. W. and Atke-son,
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 81--85
+Underfull \hbox (badness 1005) in paragraph at lines 74--78
 []\OT1/ptm/m/n/10 Ng, A. Y., Harada, D., and Rus-sell, S.
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 87--90
+Underfull \hbox (badness 2469) in paragraph at lines 80--83
 []\OT1/ptm/m/n/10 Peng, J. and Williams, R. J.
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 121--124
+Underfull \hbox (badness 1178) in paragraph at lines 114--117
 []\OT1/ptm/m/n/10 Sutton, R. S. and Barto, A. G.
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 126--129
+Underfull \hbox (badness 5985) in paragraph at lines 119--122
 []\OT1/ptm/m/n/10 Sutton, R. S., Barto, A. G., and
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 147--150
+Underfull \hbox (badness 4673) in paragraph at lines 140--143
 []\OT1/ptm/m/n/10 Whiteson, S. and Stone, P.
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
  (./model-free-model-based-shaping.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `model-free-model-based-shaping.out' has not 
 changed.
 (rerunfilecheck)             Checksum: 96C445B288072CE2B5A29140B40587C9;1432.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 7998 strings out of 493117
- 122427 string characters out of 6135433
- 209921 words of memory out of 5000000
- 11278 multiletter control sequences out of 15000+600000
- 23863 words of font info for 62 fonts, out of 8000000 for 9000
+ 7997 strings out of 493117
+ 122382 string characters out of 6135433
+ 209886 words of memory out of 5000000
+ 11277 multiletter control sequences out of 15000+600000
+ 24941 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,1365b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,40p,1374b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on model-free-model-based-shaping.pdf (7 pages, 737960 bytes).
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on model-free-model-based-shaping.pdf (7 pages, 746372 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
+ 316 PDF objects out of 1000 (max. 8388607)
  275 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 71 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
