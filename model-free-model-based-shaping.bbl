@@ -122,6 +122,11 @@ Sutton, R.~S. and Barto, A.~G. (1998).
 \newblock {\em Reinforcement learning: An introduction}.
 \newblock MIT press.
 
+\bibitem[Sutton et~al., 1992]{sutton1992reinforcement}
+Sutton, R.~S., Barto, A.~G., and Williams, R.~J. (1992).
+\newblock Reinforcement learning is direct adaptive optimal control.
+\newblock {\em IEEE Control Systems}, 12(2):19--22.
+
 \bibitem[Sutton et~al., 2012]{sutton2012dyna}
 Sutton, R.~S., Szepesv{\'a}ri, C., Geramifard, A., and Bowling, M.~P. (2012).
 \newblock Dyna-style planning with linear function approximation and
